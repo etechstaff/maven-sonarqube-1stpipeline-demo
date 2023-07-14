@@ -14,7 +14,7 @@ pipeline {
         sh 'mvn clean'
       }
     }
-    stage('3-mavenbuild'){
+    stage('3-mavenbuilds'){
       steps{
         sh 'mvn package'
       }
